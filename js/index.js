@@ -1,0 +1,1 @@
+const modal = w.modal()

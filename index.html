@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5K7SZ8K");
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="5-7 ключевых слов" />
+    <title>Водоснабжение</title>
+    <link rel="icon" href="icon/iconWater.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5K7SZ8K"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <header>
+      <div class="container">
+        <div class="line">
+          <div class="blue blue1"></div>
+          <div class="blue blue2"></div>
+          <div class="blue blue3"></div>
+        </div>
+        <div class="wrapper">
+          <div class="widthlogo">
+            <a class="logoA" href="/index.html">
+              <div class="logo">
+                <img src="icon/logo.svg" alt="logo" />
+              </div>
+            </a>
+          </div>
+          <div>
+            <div class="wrapper__itemPhone">
+              <a href="tel:+7(988)564-31-80"></a>
+              <a href="callto:+7(988)564-31-80">
+                <img src="icon/phoneIcon.svg" alt="phone" />
+                <p class="wrapper__phoneNumber">+7 (988) 564-31-80</p>
+              </a>
+            </div>
+            <div class="wrapper__item wrapper__itemNone">
+              <img src="icon/addressIcon.svg" alt="address" />
+              <p class="wrapper__addressTime">
+                г. Сочи, ​Адлерский район <br />
+                ул. Гастелло, 23а.
+              </p>
+            </div>
+            <div class="wrapper__item wrapper__itemNone">
+              <img src="icon/timeIcon.svg" alt="time" />
+              <p class="wrapper__addressTime">Ежедневно с 8:00 до 21:00</p>
+            </div>
+          </div>
+          <div>
+            <button class="button buttonModalOpen">Обратный звонок</button>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="ul">
+            <li class="ul__li">
+              <a href="index.html"> Главная </a>
+            </li>
+            <li id="id" class="ul__li dropdownMenuRelative dropdownMenuHide">
+              <a href="#"> Услуги </a>
+              <img
+                class="dropdownMenuRelative__arrow"
+                src="icon/arrow.svg"
+                alt="arrow"
+              />
+              <div class="dropdownMenu d-none">
+                <ul class="dropdownUl">
+                  <li class="dropdownUl__li">
+                    <a href="services/documentation/index.html"> Документация </a>
+                  </li>
+                  <li class="dropdownUl__li">
+                    <a href="services/sewerage/index.html"> Канализация </a>
+                  </li>
+                  <li class="dropdownUl__li">
+                    <a href="services/waterSupply/index.html"> Водоснабжение </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="ul__li">
+              <a href="workExamples/index.html"> Примеры </a>
+            </li>
+            <li class="ul__li">
+              <a href="aboutUs/index.html"> О нас </a>
+            </li>
+            <li class="ul__li">
+              <a href="contacts/index.html"> Контакты </a>
+            </li>
+          </ul>
+        </nav>
+        <div id="hamburger" class="hamburger">
+          <span></span>
+          <span class="headerSpan header__span"></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="sliderMain">
+        <div class="container">
+          <div class="slider">
+            <div class="item">
+              <div class="slider__titleWrapper">
+                <h1 class="slider__header">Подключение к сетям канализации</h1>
+                <h2 class="slider__subheader">
+                  Выполнение всех видов строительно-монтажных работ
+                </h2>
+              </div>
+              <img class="sliderImg" src="/img/slider1.jpg" alt="slider1" />
+            </div>
+            <div class="item">
+              <div class="slider__titleWrapper">
+                <h2 class="slider__header">
+                  Подключение к сетям водоснабжения
+                </h2>
+                <h3 class="slider__subheader">
+                  Выполнение всех видов строительно-монтажных работ
+                </h3>
+              </div>
+              <img class="sliderImg" src="/img/slider2.jpg" alt="slider2" />
+            </div>
+            <div class="item">
+              <div class="slider__titleWrapper">
+                <h2 class="slider__header">
+                  Оформление документации для подключения
+                </h2>
+                <h3 class="slider__subheader">
+                  Согласование документации в МУП г. Сочи "Водоканал"
+                </h3>
+              </div>
+              <img class="sliderImg" src="/img/slider3.jpg" alt="slider3" />
+            </div>
+            <a class="previous" onclick="previousSlide()">
+              <img src="/icon/leftArrow.svg" alt="leftArrow" />
+            </a>
+            <a class="next" onclick="nextSlide()">
+              <img src="/icon/rightArrow.svg" alt="rightArrow" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="youWillGet">
+        <div class="container">
+          <h2 class="header">Главная</h2>
+          <h3 class="headerTop">Обратившись к нам Вы получите:</h3>
+          <div class="wrapper wrapper1">
+            <div class="wrapper__flex">
+              <div class="wrapper__mask">
+                <p>1</p>
+              </div>
+              <div class="wrapper__title">
+                <h3 class="wrapper__header">Подготовка документов</h3>
+                <p class="wrapper__subtitle">
+                  для заключения договора о подключении (технологическом
+                  присоединении) и технических условий объекта к сетям
+                  водоснабжения и водоотведения.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img
+                class="wrapper__img"
+                src="img/youWillGet1.jpg"
+                alt="youWillGet1"
+              />
+            </div>
+          </div>
+          <div class="wrapper wrapper2">
+            <div>
+              <img class="" src="img/youWillGet2.jpg" alt="youWillGet2" />
+            </div>
+            <div class="wrapper__flex">
+              <div class="wrapper__mask2">
+                <p>2</p>
+              </div>
+              <div class="wrapper__title">
+                <h3 class="wrapper__header">
+                  Разработка проектно-технической документации
+                </h3>
+                <p class="wrapper__subtitle">
+                  и согласование ее с эксплуатирующей организацией МУП г.Сочи
+                  "Водоканал".
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper wrapper1">
+            <div class="wrapper__flex">
+              <div class="wrapper__mask">
+                <p>3</p>
+              </div>
+              <div class="wrapper__title">
+                <h3 class="wrapper__header">
+                  Выполнение строительно - монтажных работ
+                </h3>
+                <p class="wrapper__subtitle">
+                  в соответствии с согласованным проектом.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="img/youWillGet3.jpg" alt="youWillGet" />
+            </div>
+          </div>
+          <div class="wrapper wrapper2">
+            <div>
+              <img src="img/youWillGet4.jpg" alt="youWillGet" />
+            </div>
+            <div class="wrapper__flex">
+              <div class="wrapper__mask2">
+                <p>4</p>
+              </div>
+              <div class="wrapper__title">
+                <h3 class="wrapper__header">Сдача выполненных работ</h3>
+                <p class="wrapper__subtitle">
+                  представителям эксплуатирующей организации МУП г.Сочи
+                  “Водоканал” и получением акта приёмки сетей.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper wrapper1">
+            <div class="wrapper__flex">
+              <div class="wrapper__mask">
+                <p>5</p>
+              </div>
+              <div class="wrapper__title">
+                <h3 class="wrapper__header">
+                  Заключение абонентского договора
+                </h3>
+                <p class="wrapper__subtitle">
+                  и получение индивидуального лицевого счета.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img class="" src="img/youWillGet5.jpg" alt="youWillGet5" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="problemsYouMayFace">
+        <div class="container">
+          <h2 class="headerTop headerTop1">
+            Проблемы с которыми вы можете столкнуться:
+          </h2>
+          <div class="problemsYouMayFace__titleTop">
+            <p>
+              Обратившись к не профессионалам или решив, что Вы можете сделать
+              все сами, велика вероятность попасть в неприятную ситуацию, в
+              связи с чем, гонка за выгодой обернется дополнительными расходами
+              и потерей времени. Ниже мы расскажем о 4 проблемах, с которыми
+              может столкнуться каждый кто не имеет достаточно опыта в столь
+              специфической области:
+            </p>
+          </div>
+          <div class="problemsYouMayFace__wrapperTop">
+            <div class="problemsYouMayFace__wrapper">
+              <p>
+                1. При подаче заявки на договор о подключении к сетям
+                водоснабжения или водоотведения, местный “Водоканал” вполне
+                вероятно может указать Вам точки присоединения в местах столь
+                отдаленных от Вашего участка куда ни как не протянуть свою сеть
+                и не подключиться.
+              </p>
+              <img src="/icon/plus.svg" alt="plus" />
+            </div>
+            <div class="problemsYouMayFace__wrapper">
+              <p>
+                2. Эксплуатирующая организация может включить в договор свои
+                мероприятия для подключения Вашего объекта, например проложить
+                сеть водопровода от точки подключения до границы участка
+                подключаемого объекта за Ваш счет, что обычно выходит в круглые
+                суммы и занимает очень долгое время.
+              </p>
+              <img src="/icon/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="problemsYouMayFace__wrapperTop botLine">
+            <div class="problemsYouMayFace__wrapper">
+              <p class="moreIndent">
+                3. При подаче проектной документации на согласование в
+                “Водоканал”, неопытные проектные организации допускают ошибки в
+                составлении проекта сетей. Вследствие чего “Водоканал” пишет
+                замечания по проектно-технической документации, что вынуждает
+                переделывать ее и повторно подавать заявку с откорректированным
+                проектом в “Водоканал”, а каждое рассмотрение это время
+                ориентировочно 30 рабочих дней. И даже при повторной подаче
+                документов, часто допускаются ошибки, которые запускают процесс
+                по третьему кругу и так может продолжаться бесконечно.
+              </p>
+              <img src="/icon/plus.svg" alt="plus" />
+            </div>
+            <div class="problemsYouMayFace__wrapper">
+              <p class="moreIndent">
+                4. Чаще всего, граждане, получив проект на руки, начинают искать
+                подрядчиков, которые воплотят их проект в жизнь, по принципу,
+                чем дешевле, тем лучше. В итоге получают выполнение строительно
+                - монтажных работ, которые не соответствуют согласованному
+                проекту и получают отказ в приёмке сетей эксплуатирующей
+                организацией, и выдаче акта готовности сетей. Далее приходится
+                принять тяжелое решение, либо искать новую организацию которая
+                все переделает, а это огромные затраты, либо опять
+                корректировать проектную документацию но уже чтобы она
+                соответствовала фактически построенным сетям, хотя и это может
+                не помочь, т.к. замечания по выполнению строительно-монтажных
+                работ бывают такие, что их можно исправить только технически.
+              </p>
+              <img src="/icon/plus.svg" alt="plus" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="requestSection">
+        <div class="container">
+          <div class="request">
+            <h2 class="headerTop headerTop1 white">
+              Остались вопросы? Напишите нам.
+            </h2>
+            <form class="postRequest">
+              <label for="name">
+                <span class="errorPush errorPush1"></span>
+                <input
+                  data-rule="name"
+                  id="name"
+                  placeholder="Имя"
+                  class="general postRequest__name"
+                  name="name"
+                  type="text"
+                />
+              </label>
+              <label for="tel">
+                <span class="errorPush errorPush2"></span>
+                <input
+                  data-rule="number"
+                  id="tel"
+                  placeholder="Телефон"
+                  class="general postRequest__tel"
+                  name="tel"
+                  type="text"
+                />
+              </label>
+              <label for="comment">
+                <span class="errorPush errorPush3"></span>
+                <textarea
+                  data-rule="comment"
+                  id="comment"
+                  class="general"
+                  placeholder="Коментарий"
+                  name="comment"
+                  cols="40"
+                  rows="3"
+                ></textarea>
+              </label>
+              <button class="button button_postRequest">Жду звонка</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footerFlex">
+            <div class="footerFlex__wrapper">
+              <h2>Инженерные сети</h2>
+              <p>Проектирование Строительство Обслуживание</p>
+            </div>
+            <div class="footerFlex__wrapper">
+              <h2>Наш WhatsApp</h2>
+              <div>
+                <a
+                  href="whatsapp://send?text=Hello&phone=+79885643180&abid=+79885643180"
+                  class="footerFlex__flex"
+                >
+                  <img src="icon/phoneIcon.svg" alt="YoutubeIcon" />
+                  <p>WhatsApp</p>
+                </a>
+              </div>
+            </div>
+            <div class="footerFlex__wrapper">
+              <h2>Контакты</h2>
+              <div class="footerFlex__flex">
+                <img src="icon/phoneIconTwo.svg" alt="phoneIconTwo" />
+                <p>+7 (988) 564-31-80</p>
+              </div>
+              <div class="footerFlex__flex">
+                <img src="/icon/LacIcon.svg" alt="LacIcon" />
+                <p>
+                  г. Сочи, ​Адлерский район <br />
+                  ул. Гастелло, 23а.
+                </p>
+              </div>
+              <div class="footerFlex__flex">
+                <img src="/icon/postIcon.svg" alt="postIcon" />
+                <p>WaterSupplySochi@yandex.ru</p>
+              </div>
+              <div class="footerFlex__flex">
+                <img src="/icon/timeIconTwo.svg" alt="timeIcon" />
+                <p>Ежедневно с 8:00 до 21:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/base.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/validation.js"></script>
+  </body>
+</html>

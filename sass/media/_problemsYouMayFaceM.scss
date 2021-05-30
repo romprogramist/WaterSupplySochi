@@ -1,0 +1,82 @@
+@media screen and (max-width: 1140px) {
+  .problemsYouMayFace {
+    .moreIndent {
+      height: 750px;
+    }
+  }
+}
+@media screen and (max-width: 920px) {
+  .problemsYouMayFace {
+    .moreIndent {
+      height: 750px;
+    }
+    p {
+      font-size: 19px;
+    }
+    .moreIndent {
+      height: 600px;
+    }
+    p:first-letter {
+      font-size: 30px;
+    }
+  }
+}
+@media screen and (max-width: 770px) {
+  .problemsYouMayFace {
+    .moreIndent {
+      height: 400px;
+    }
+    &__wrapperTop {
+      display: block;
+    }
+    &__titleTop {
+        line-height: 25px;
+    }
+    &__wrapper {
+      width: 95%;
+      p {
+        height: 200px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        height: 2px;
+        background: #2b5eaa;
+        width: 100%;
+        top: -20px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 508px) {
+    .problemsYouMayFace {
+        .moreIndent {
+          height: 530px;
+        }
+        &__wrapperTop {
+          display: block;
+        }
+        &__titleTop {
+            line-height: 25px;
+            p {
+                font-size: 16px;
+            }
+        }
+        &__wrapper {
+          p {
+            height: 200px;
+            font-size: 16px;
+          }
+          &:before {
+            content: "";
+            position: absolute;
+            height: 2px;
+            background: #2b5eaa;
+            width: 100%;
+            top: -20px;
+          }
+        }
+      }
+}

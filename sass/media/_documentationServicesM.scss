@@ -1,0 +1,152 @@
+@media screen and (max-width: 1140px) {
+    .documentationServices {
+        .dropdownWrapper {
+            &__title {
+                p {
+                    font-size: 25px;
+                }
+            }
+            &__plus {
+                top: 18px;
+            }
+        }
+        .ulDow {
+            li {
+                font-size: 20px;
+                margin-top: 45px;
+            }
+        }
+        &__downloadWrap {
+            padding: 30px;
+        }
+        &__titleWrap {
+            p {
+                font-size: 22px;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .documentationServices {
+        .dropdownWrapper {
+            &__title {
+                width: 90%;
+                p {
+                    font-size: 23px;
+                }
+            }
+            &__plus {
+                top: 18px;
+                
+            }
+        }
+        .ulDow {
+            li {
+                font-size: 18px;
+                margin-top: 35px;
+            }
+        }
+        &__downloadWrap {
+            padding: 14px;
+            img {
+                width: 40px;
+            }
+        }
+        &__titleWrap {
+            p {
+                font-size: 18px;
+            }
+        }
+        &__a {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .documentationServices {
+        .dropdownWrapper {
+            &__title {
+                width: 88%;
+                p {
+                    font-size: 20px;
+                }
+            }
+            &__plus {
+                top: 14px;
+            }
+        }
+        .ulDow {
+            li {
+                font-size: 16px;
+                margin-top: 30px;
+            }
+        }
+        &__downloadWrap {
+            width: 90%;
+        }
+        &__downloadWrap {
+            margin: 0 auto ;
+        }
+        &__flexWrap {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        &__downloadWrap {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .documentationServices {
+        .dropdownWrapper {
+            &__title {
+                width: 88%;
+                p {
+                    font-size: 20px;
+                }
+            }
+            &__plus {
+                top: 14px;
+            }
+        }
+        .ulDow {
+            li {
+                font-size: 16px;
+                margin-top: 30px;
+            }
+        }
+        &__flexWrap {
+            flex-direction: column !important;
+        }
+    }
+}
+
+@media screen and (max-width: 357px) {
+    .documentationServices {
+        .dropdownWrapper {
+            &__title {
+                width: 89%;
+                p {
+                    font-size: 17px;
+                }
+            }
+            &__plus {
+                top: 12.5px;
+            }
+        }
+        .ulDow {
+            li {
+                font-size: 16px;
+                margin-top: 30px;
+            }
+        }
+        &__downloadWrap {
+            width: 100%;
+        }
+    }
+
+}

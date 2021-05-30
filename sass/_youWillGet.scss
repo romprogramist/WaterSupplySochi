@@ -1,0 +1,55 @@
+.youWillGet {       
+    .wrapper {
+        padding: 70px;
+        background: #F7F7F7;
+        height: 490px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        &__mask2 {
+            border-radius: 10px 0 10px 10px;
+            height: 65px;
+            width: 65px;
+            background: #2B5EAA;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 87%;
+            
+            p {
+                font-size: 40px;
+                font-weight: 500;
+                color: #fff;
+            }
+        }
+        &__mask {
+            border-radius: 0 10px 10px 10px;
+            height: 65px;
+            width: 65px;
+            background: #2B5EAA;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: 40px;
+                font-weight: 500;
+                color: #fff;
+            }
+        }
+        &__title {
+            max-width: 500px;
+            margin-top: 100px;
+        }
+        &__header {
+            font-weight: 500;
+            font-size: 38px;
+            line-height: 133.49%;
+            margin: 0;
+        }
+        &__subtitle {
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 145.99%;
+        }
+    }
+}

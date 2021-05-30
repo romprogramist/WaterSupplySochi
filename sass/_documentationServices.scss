@@ -1,0 +1,118 @@
+.documentationServices {
+    .dropdownWrapper {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;        
+        align-items: center;
+        cursor: pointer;
+        &__titleWra {
+            margin-right: 20px;
+            border-color: crimson;
+        }
+        &__title {
+            width: 100%;
+            position: relative;
+            p {
+                font-weight: 500;
+                font-size: 38px;
+                line-height: 133.49%;
+                color: #000000;
+                width: 95%;
+            }
+            
+            
+        }
+        &__plus {
+            cursor: pointer;
+            position: absolute;
+            right: 20px;
+            top: 32px;
+            .horizontallyVertically {
+                position: absolute;
+                background: #2B5EAA;                
+            }
+            .horizontally {
+                bottom: 50%;
+                left: 50%;
+                transform: translate(-50%, 50%);
+                width: 20px;
+                height: 4px;
+            }
+            .vertically {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 4px;
+                height: 20px;
+            }
+        }
+        
+    }
+    .ulDow {
+        width: 89%;
+        margin: 0 auto;
+        li {
+            list-style-type: circle;                  
+            margin-top: 60px;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 133.49%;    
+            color: #000000;
+        }
+        
+    }
+    .lineAfter {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            background: #2B5EAA;
+            height: 2px;
+            top: 50px;
+        }
+    }
+    &__flexWrap {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 50px auto;
+        
+    }
+    &__downloadWrap {
+        padding: 35px;
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+        height: 156px;
+        width: 48%;
+        border: 2px solid #2B5EAA;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+    }
+    &__titleWrap {
+        margin-left: 10px;
+        flex-direction: column !important;
+        p {
+            margin-left: 10px;
+            font-size: 24px;
+        }
+    }    
+    &__a {
+        color: black;
+    }
+    &__download {
+        margin-top: 20px;
+        a {
+            border-bottom: 1.5px solid #2B5EAA;
+            margin-left: 10px;
+            font-weight: 300;
+        }
+    }
+}
+

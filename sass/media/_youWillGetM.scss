@@ -1,0 +1,97 @@
+@media screen and (max-width: 1180px) {
+    .youWillGet {
+        .wrapper {
+            padding: 30px;
+            height: 820px;
+            width: 600px;
+            margin: 0 auto;
+            flex-direction: column-reverse;
+            margin-top: 50px;
+            img {           
+                height: 378px;
+                width: 100%;
+            }
+            &__mask {
+                margin-top: 30px;
+            }            
+        }
+        .wrapper2 {            
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .youWillGet {
+        .wrapper {
+            padding: 25px;
+            height: 700px;
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 50px;
+            img {           
+                height: 280px;
+                width: 100%;
+            }
+            &__mask {
+                margin-top: 30px;
+            }
+            &__mask2 {
+                margin-left: 81%;
+            }
+            &__header {
+                font-size: 30px;
+            }       
+            &__subtitle {
+                font-size: 18px;
+            }   
+            &__title {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .youWillGet {
+        .wrapper {
+            padding: 20px;
+            height: 530px;
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 50px;
+            img {           
+                height: 200px;
+            }
+            &__mask {
+                margin-top: 30px;
+                height: 50px;
+                width: 50px;
+                p {
+                    font-size: 30px;
+                }
+            }
+            &__mask2 {
+                margin-top: 30px;
+                margin-left: 80%;
+                height: 50px;
+                width: 50px;
+                p {
+                    font-size: 30px;
+                }
+            }
+            &__header {
+                font-size: 24px;
+            }       
+            &__subtitle {
+                font-size: 16px;
+            }   
+            &__title {
+                margin-top: 30px;
+            }
+            &__flex {
+                height: 280px;
+            }
+        }
+    }
+}
