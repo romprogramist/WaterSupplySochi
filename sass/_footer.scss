@@ -31,9 +31,10 @@ footer {
             &__flex {            
                 margin-top: 13px;
                 display: flex;
+                align-items: center;
+                // justify-content: space-between;
                 img {
                     width: 19px;
-                    // height: 21px;
                     border-color: #FFFFFF;
                     margin-right: 5px;
                 }
