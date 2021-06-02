@@ -11,9 +11,9 @@
         }
       }
       .button {
-        padding: 12px 0;
-        width: 210px;
-        font-size: 20px;
+        // padding: 12px 0;
+        // width: 210px;
+        // font-size: 20px;
       }
     }
     nav {
@@ -57,20 +57,19 @@
       width: 100%;
       display: flex;
       justify-content: center;
+      .buttonModalOpen {
+        position: absolute;
+        right: 20px;
+        top: 88px;
+        z-index: 8;
+      }
       .button {
         width: 110px;
         height: 28px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        right: 20px;
-        top: 88px;
-        position: absolute;
         background: #ffffff;
         border-radius: 1.00911px;
         color: #2b5eaa;
         font-size: 12px;
-        z-index: 8;
       }
       &__itemNone {
         display: none;
