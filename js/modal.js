@@ -13,7 +13,7 @@ function _createModal(options) {
                 <span class="errorPush errorPush1"></span>
                 <input
                   data-rule="name"
-                  id="name"
+                  id="nameInquiryOneModal"
                   placeholder="Имя"
                   class="general postRequest__name"
                   name="name"
@@ -24,7 +24,7 @@ function _createModal(options) {
                 <span class="errorPush errorPush2"></span>
                 <input
                   data-rule="number"
-                  id="tel"
+                  id="telInquiryTwoModal"
                   placeholder="Телефон"
                   class="general postRequest__tel"
                   name="tel"
@@ -35,7 +35,7 @@ function _createModal(options) {
                 <span class="errorPush errorPush3"></span>
                 <textarea
                   data-rule="comment"
-                  id="comment"
+                  id="commentInquiryThreeModal"
                   class="general "
                   placeholder="Коментарий"
                   name="comment"

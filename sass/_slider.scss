@@ -49,10 +49,18 @@
   }
   .slider .previous {
     left: 30px;
+    img {
+      width: 20px;
+      height: 25px;
+    }
   }
   .slider .next {
     right: 30px;
     border-radius: 3px 0 0 3px;
+    img {
+      width: 20px;
+      height: 25px;
+    }
   }
   .slider .previous:hover,
   .slider .next:hover {

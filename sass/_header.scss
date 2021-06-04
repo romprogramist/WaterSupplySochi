@@ -1,6 +1,6 @@
 header {
     padding: 13px 0 16px 0;
-    padding-bottom: 10px !important;
+    padding-bottom: 10px ;
     .container {
         position: relative;
         &:after {
@@ -13,7 +13,6 @@ header {
             transform: translateX(50%);   
         }
     }
-    
     .line {
         position: absolute;
         top: -22px;
@@ -101,10 +100,6 @@ header {
         padding-left: 0;
         &__li { 
             padding: 20px 0;
-            &_active {
-                // z-index: 6;
-                    
-            }
         }
         
     }
@@ -140,5 +135,9 @@ header {
     }
     .hamburger {
         display: none;
+    }
+    .iconsHeader {
+        width: 20px;
+        height: 100%;
     }
 }
