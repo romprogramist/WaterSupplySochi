@@ -43,7 +43,7 @@ function _createModal(options) {
                   rows="3"
                 ></textarea>
               </label>
-              <button class="button button_postRequest">Жду звонка</button>
+              <button class="button button_postRequest">Отправить заявку</button>
             </form>
           </div>
         </div>

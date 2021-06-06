@@ -6,6 +6,9 @@
         display: flex;
         justify-content: space-between;
         margin-top: 80px;
+        img {
+            width: 100%;
+        }
         &__mask2 {
             border-radius: 10px 0 10px 10px;
             height: 65px;
