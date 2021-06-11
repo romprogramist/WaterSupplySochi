@@ -21,6 +21,7 @@
     <title>Водоснабжение</title>
     <link rel="icon" href="icon/iconWater.svg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
@@ -38,7 +39,7 @@
       ></iframe
     ></noscript>
     <header>
-      <div class="container">
+      <div class="containerDom">
         <div class="line">
           <div class="blue blue1"></div>
           <div class="blue blue2"></div>
@@ -129,7 +130,7 @@
     </header>
     <main>
       <section class="sliderMain">
-        <div class="container">
+        <div class="containerDom">
           <div class="slider">
             <div class="item">
               <div class="slider__titleWrapper">
@@ -172,7 +173,7 @@
         </div>
       </section>
       <section class="youWillGet">
-        <div class="container">
+        <div class="containerDom">
           <h2 class="header">Главная</h2>
           <h3 class="headerTop">Обратившись к нам, Вы получите</h3>
           <div class="wrapper wrapper1">
@@ -272,7 +273,7 @@
         </div>
       </section>
       <section class="problemsYouMayFace">
-        <div class="container">
+        <div class="containerDom">
           <h2 class="headerTop">
             Если решите делать все самостоятельно
           </h2>
@@ -343,11 +344,8 @@
         </div>
       </section>
       <section class="requestSection">
-        <div class="container">
+        <div class="containerDom">
           <div class="request">
-            <!-- <h2 class="headerTop headerTop1 white">
-              Обратитесь к профессионалам с большим опытом работы 
-            </h2> -->
             <h3 class="headerTop white">Избавьте себя от лишних  проблем</h3>
             <form class="postRequest">
               <label for="name">
@@ -372,7 +370,7 @@
                   type="text"
                 />
               </label>
-              <label for="comment">
+              <label class="labelComment" for="comment">
                 <span class="errorPush errorPush3"></span>
                 <textarea
                   data-rule="comment"
@@ -391,16 +389,16 @@
       </section>
     </main>
     <footer>
-      <div class="container">
+      <div class="containerDom">
         <div class="footer">
-          <div class="footerFlex">
-            <div class="footerFlex__wrapper">
+          <div class=" footerFlex">
+            <div class="mt-2 footerFlex__wrapper">
               <h2>Инженерные сети</h2>
-              <p>Проектирование Строительство Обслуживание</p>
+              <p class="mt-4">Проектирование Строительство Обслуживание</p>
             </div>
-            <div class="footerFlex__wrapper">
+            <div class="mt-2 footerFlex__wrapper">
               <h2>Наши Мессенджеры</h2>
-              <a href="https://wa.me/79885643180" class="footerFlex__flex">
+              <a href="https://wa.me/79885643180" class="mt-4 footerFlex__flex">
                 <img
                   class="iconsFooter"
                   src="icon/WhatsApp.svg"
@@ -417,9 +415,9 @@
                 <p>Telegram</p>
               </div>
             </div>
-            <div class="footerFlex__wrapper">
+            <div class="mt-2 footerFlex__wrapper">
               <h2>Контакты</h2>
-              <div class="footerFlex__flex">
+              <div class="mt-4 footerFlex__flex">
                 <img src="icon/phoneIconTwo.svg" alt="phoneIconTwo" />
                 <p>+7 (988) 564-31-80</p>
               </div>

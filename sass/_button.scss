@@ -1,0 +1,26 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 14px 0;
+    width: 260px;
+    background: #2b5eaa;
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    &_postRequest {
+      width: 100%;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      margin-top: 25px;
+    }
+    &_buttonCards {
+      width: 180px;
+      padding: 8px 0;
+      font-size: 16px;
+    }
+  }

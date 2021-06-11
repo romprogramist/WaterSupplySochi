@@ -4,9 +4,11 @@ function _createModal(options) {
   modal.insertAdjacentHTML(
     ("beforeend"),
     html = `
+    <h1 class="headerTop white headerTopwhite">Оставьте заявку, и мы Вам перезвоним</h1>
       <div class="requestSection requestSection1">
         <div class="container">
-          <div class="request">
+         
+          <div class="request request1">
             <span data-close="true" class="close">&times;</span>
             <form class="postRequest">
               <label for="name">
@@ -31,7 +33,7 @@ function _createModal(options) {
                   type="text"
                 />
               </label>
-              <label for="comment">
+              <label class="labelComment" for="comment">
                 <span class="errorPush errorPush3"></span>
                 <textarea
                   data-rule="comment"
@@ -54,7 +56,7 @@ function _createModal(options) {
   return modal;
 }
 
-
+const body = document.querySelector('body');
 
 w.modal = function (options) {
   const wmodal = _createModal(options);
@@ -63,9 +65,11 @@ w.modal = function (options) {
     const modal = {
         open() {
             wmodal.classList.add('open')
+            body.style.overflow = "hidden";
         },
         close() {
             wmodal.classList.remove('open')
+            body.style.overflow = "";
         }
     }
 
@@ -74,10 +78,17 @@ w.modal = function (options) {
         modal.close()
       }
   })
-  const buttonModalOpen = document.querySelector('.buttonModalOpen');
-  buttonModalOpen.addEventListener('click', event => {    
-    modal.open()
-})
+
+
+  const buttonModalOpen = document.querySelectorAll('.buttonModalOpen');
+
+  Object.values(buttonModalOpen).forEach((d) => {
+    d.addEventListener('click', event => {
+      modal.open()
+  })
+  })
+
+ 
 
   return modal;
 };

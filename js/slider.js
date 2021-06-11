@@ -12,7 +12,6 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("item");
-
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -23,4 +22,12 @@ function showSlides(n) {
     slide.style.display = "none";
   }
   slides[slideIndex - 1].style.display = "block";
+}
+
+
+setTimeout(leafThrough, 0);
+
+function leafThrough() {
+  setTimeout(leafThrough, 7000);
+  setTimeout(nextSlide, 7000);
 }

@@ -1,7 +1,7 @@
 header {
     padding: 13px 0 16px 0;
     padding-bottom: 10px ;
-    .container {
+    .containerDom {
         position: relative;
         &:after {
             position: absolute;
@@ -35,6 +35,7 @@ header {
         }
     }
     .wrapper {
+        padding: 0 4px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -52,6 +53,7 @@ header {
             font-weight: 400;
         }
         a {
+            color: #fff;
             display: flex;
             text-decoration: none;
             img {
@@ -70,11 +72,13 @@ header {
         width: 750px;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 0 ;
         &__li {            
             width: 20%;  
             text-align: center;
             cursor: pointer;
             a {
+                color: #fff;
                 padding: 10px 0;
             }
             &_active {
@@ -107,7 +111,7 @@ header {
         position: relative;
         width: 100%;
         height: 48px;
-        margin-top: 12px;
+        margin-top: 16px;
         display: flex;
         align-items: center;
         background: #2B5EAA;
@@ -130,7 +134,7 @@ header {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 33px;
+        top: 36px;
         z-index: 1;
     }
     .hamburger {
